@@ -5,10 +5,10 @@ const app = express();
 
 // Respond with "Hello World via Github Actions" for requests that hit our root "/"
 app.get("/", function (req, res) {
- return res.send("Hello World via Github Actions");
+ return res.send("Hello World via Github Actions - ITC Infotitans");
 });
 
-// listen to port 7000 by default
+// listen to port 3000 by default
 app.listen(process.env.PORT || 3000, () => {
   console.log("Server is running");
 });
