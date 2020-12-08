@@ -5,7 +5,7 @@ const app = express();
 
 // Respond with "Hello World via Github Actions" for requests that hit our root "/"
 app.get("/", function (req, res) {
- return res.send("Hello World via Github Actions");
+ return res.send("Welcome to the MS DevOps Hackathon");
 });
 
 // listen to port 3000 by default
