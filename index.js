@@ -8,8 +8,8 @@ app.get("/", function (req, res) {
  return res.send("Hello World via Github Actions");
 });
 
-// listen to port 3001 by default
-app.listen(process.env.PORT || 3001, () => {
+// listen to port 3000 by default
+app.listen(process.env.PORT || 3000, () => {
   console.log("Server is running");
 });
 
